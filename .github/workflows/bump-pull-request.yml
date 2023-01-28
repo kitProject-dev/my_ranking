@@ -28,7 +28,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
         with:
-          ef: 'develop'
+          ref: 'develop'
 
       - name: install flutter
         uses: subosito/flutter-action@v2
