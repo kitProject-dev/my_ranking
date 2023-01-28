@@ -1,4 +1,13 @@
 {
   "image": "kitproject/gitpod-flutter-android:lastest",
-  "forwardPorts": [8080]
+  "forwardPorts": [8080],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dart-code.flutter",
+        "dart-code.dart-code",
+        "alphabotsec.vscode-eclipse-keybindings"
+      ]
+    }
+  }
 }
