@@ -1,0 +1,4 @@
+{
+  "image": "kitproject/gitpod-flutter-android:lastest",
+  "forwardPorts": [8080]
+}
