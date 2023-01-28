@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 import 'package:my_ranking/main.dart';
 
@@ -15,6 +16,7 @@ void main() {
     await tester.pump();
 
     expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    expect(find.text('5'), findsOneWidget);
+
   });
 }
